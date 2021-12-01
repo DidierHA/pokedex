@@ -48,7 +48,7 @@ const crearCarta = (pokemon) => {
     pokemonDiv.style.backgroundColor = color;
     const pokemonHTML = `
         <div class="imgContenedor">
-            <img src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png">
         </div>
         <div class="informacion">
             <span class="numeroPokemon">#${pokemon.id.toString().padStart(3, '0')}</span>
